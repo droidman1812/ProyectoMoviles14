@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/nav_inicio"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:title="Inicio" />
+
+<item
+    android:id="@+id/nav_calendario"
+    android:icon="@drawable/ic_event"
+    android:title="Calendario" />
+
+<item
+    android:id="@+id/nav_camara"
+    android:icon="@drawable/ic_menu_camera"
+    android:title="Camara" />
+
+<item
+        android:id="@+id/nav_mapa"
+        android:icon="@drawable/ic_edit_location_black_24dp"
+        android:title="Mapa" />
+
+</menu>

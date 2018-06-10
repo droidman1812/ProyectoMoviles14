@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.usuario.proyectomoviles14.AgregarActivity">
+
+
+    <EditText
+        android:id="@+id/txtnombreEventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Ingrese nombre de Evento" />
+
+    <EditText
+        android:id="@+id/txtUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnombreEventos"
+        android:layout_weight="1"
+        android:hint="Ingrese Ubicacion" />
+
+    <TextView
+        android:id="@+id/tvInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUbicacion"
+        android:text="INICIO" />
+
+    <EditText
+        android:id="@+id/txtFechaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInicio" />
+
+    <EditText
+        android:id="@+id/txtHoraInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFechaInicio" />
+
+    <TextView
+        android:id="@+id/tvFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHoraInicio"
+        android:text="FIN" />
+
+    <EditText
+        android:id="@+id/txtFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFin" />
+
+    <EditText
+        android:id="@+id/txtHoraFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFechaFin" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHoraFin"
+        android:text="DESCRIPCION" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:hint="DESCRIPCION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescripcion" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="GUARDAR"
+        android:layout_below="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:text="CANCELAR"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@+id/btnGuardar"
+        android:layout_alignRight="@+id/txtDescripcion"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ProyectoMoviles1.4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_Inicio">Inicio</string>
+    <string name="action_Favoritos">Favoritos</string>
+    <string name="action_Galeria">Galeria</string>
+    <string name="action_Fotos">Fotos</string>
+    <string name="action_Informacion">Informacion</string>
+    <string name="action_Temas">Temas</string>
+    <string name="action_Camara">Camara</string>
+    <string name="action_Agenda">Agenda</string>
+    <string name="action_Compartir">Compartir</string>
+    <string name="action_Nosotros">Nosotros</string>
+    <string name="action_Configuracion">Configuracion</string>
+    <string name="action_Mapa">VerMapa</string>
+    <string name="action_Salir">Salir</string>
+    <string name="title_activity_splash_login">Sign in</string>
+    <string name="button1">Ingresar</string>
+
+    <string name="textView1">Registro de Usuarios</string>
+    <string name="txtnombre">Ingresar Nombre</string>
+    <string name="txtciudad">Ingresar Ciudad</string>
+    <string name="txtcorreo">Ingresar Correo</string>
+    <string name="txtpassword">***********</string>
+    <string name="button2">Registrar Usuario</string>}
+    <string name="txtnombreEvento">Ingrese Nombre de Evento</string>
+    <string name="txtUbicacion">Ingrese Ubicacion</string>
+    <string name="txtfechaInicio">Ingrese Fecha de Inicio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registro">registro</string>
+    <string name="title_activity_posicionamiento_">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
